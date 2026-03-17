@@ -94,12 +94,4 @@ cd frontend && npm run dev
 - `DELETE /api/v1/album/:id` (admin only)
 - `DELETE /api/v1/song/:id` (admin only)
 
-## 🧪 Notes
 
-- Make sure `.env` values are valid.
-- Use an admin user in MongoDB (`role: "admin"`) for admin routes.
-- Redis connection in song/admin services uses built-in host/port and needs password only.
-
----
-
-If you want, I can also generate a separate architecture diagram and quickstart README.
